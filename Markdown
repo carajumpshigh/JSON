@@ -1,0 +1,41 @@
+# Markdown
+- http://stackedit.io
+
+1. a blank line between paragraphs
+
+2. "#" indicates headings and their levels: more "#", lower level
+
+3. *italic*, **bold**
+
+4. monospace: this is `code`. (same width)
+
+5. [text](http://links.com)
+
+6. ![text](picture-url.jpg)
+
+7. bullet points: - Bread
+				  - Coffee
+				  - Tea
+				  or
+				  * Bread
+				  * Coffee
+				  * Tea
+
+8. ordered lists: 1. Bread
+				  10. Coffee
+				  9. Tea
+				  (the exact number doesn't matter)
+
+9. table:
+	| Name | Definition |
+	| ---- | ---------- |
+	| Positive | Greater than zero |
+	| Negative | Less than zero |
+
+	- pipes don't have to be lined up
+	- pipes for columns, dashes to separate the header row
+
+10. Heading 1 (1st level)
+	=======
+	Heading 2 (2nd level)
+	-------

@@ -1,0 +1,46 @@
+# Basic json
+
+1. data types: 
+	- string, number, boolean, 
+	- arrays
+		- can mix data types
+		- e.g. [65, "toast", true, 21, null, 100]
+	- objects
+		- {
+			"firstName" : "Peter",
+			"lastName" : "Collins",
+			"employed" : true
+		  }
+	-nesting
+
+2. example
+2.1
+{
+	"song":
+	{
+		"title": "JSON Lullaby",
+		"artist": "The Instructors",
+		"musicians": 
+			["Jen Trainer", "John Teacher"]
+	}
+}
+
+2.2
+[
+	{
+		"header": "File",
+		"items": [
+			{"id": "Open", "label": "Open"},
+	 	{"id": "New", "label": "New"},
+	 	{"id": "Close", "label": "Close"}
+	 ]
+	},
+	{
+		"header": "View",
+		"items": [
+			{"id": "ZoomIn", "label": "Zoom In"},
+			{"id": "ZoomOut", "label": "Zoom Out"},
+			{"id": "OriginalView", "label": "Original View"}
+		]
+	}
+]
