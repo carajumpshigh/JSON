@@ -1,3 +1,4 @@
+
 # Basic json
 
 1. data types: 
@@ -44,3 +45,42 @@
 		]
 	}
 ]
+
+2.3
+{
+   "Monday": {
+      "description": "sunny",
+      "maxTemp": 22,
+      "minTemp": 20,
+      "windSpeed": 12,
+      "danger": false
+   }
+}
+
+// to correct syntax: http://www.freeformatter.com/json-formatter.html
+
+{
+   "forecast": [
+      {
+         "Monday": {
+            "description": "sunny",
+            "maxTemp": 22,
+            "minTemp": 20,
+            "windSpeed": 12,
+            "danger": false
+         }
+      },
+      {
+         "Tuesday": {
+            "description": "sunny",
+            "maxTemp": 22,
+            "minTemp": 20,
+            "windSpeed": 12,
+            "danger": false
+         }
+      },
+      {
+         "Wednesday": null
+      }
+   ]
+}
